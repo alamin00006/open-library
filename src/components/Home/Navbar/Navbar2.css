@@ -42,12 +42,10 @@
     color: rgb(18, 16, 16) !important;
 }
 .offCanvas-button{
-    background-color: rgb(255, 254, 254) !important;
+    background-color:#e1dcc5 !important;
     border: none !important;
 }
-.offCanvas-button span{
-    visibility: hidden;
-}
+
 .ofcanvas-list-title{
  border-bottom: 1.5px solid black;
  padding-left: 15px;

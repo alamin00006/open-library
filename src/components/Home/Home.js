@@ -1,14 +1,15 @@
 import React from 'react';
 import MainNavbar from './Navbar/MainNavbar';
-import Navbar1 from './Navbar/Navbar1';
-import Offcanvas from './Navbar/Offcanvas';
+import './Home.css'
+import Banner from './Banner/Banner';
 
 const Home = () => {
     return (
-        <div>
-            <Navbar1></Navbar1>
+        <div className='home-page'>
+            
             <MainNavbar></MainNavbar>
-            <Offcanvas></Offcanvas>
+            <Banner></Banner>
+            
         </div>
     );
 };
