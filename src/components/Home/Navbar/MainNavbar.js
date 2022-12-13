@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './MainNavbar.css'
 import Offcanvas from './Offcanvas';
+import { MagnifyingGlassIcon } from '@heroicons/react/24/solid'
 const MainNavbar = () => {
     return (
         <div className="container main-Navbar">
@@ -43,15 +44,20 @@ const MainNavbar = () => {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-          <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2 search-filed"
-              aria-label="Search"
-            />
-            
-          </Form>
+            <div className='position-relative'>
+            <Form className="d-flex">
+                <Form.Control
+                  type="search"
+                  placeholder="Search"
+                  className="me-2 search-filed"
+                  aria-label="Search"
+                />
+                
+              </Form>
+                 <div className='search-icon-button'>
+                     <MagnifyingGlassIcon className='search-icon'/>
+                 </div>
+            </div>
           <div className='d-flex align-items-center mx-3 mt-3 nav-left-part'>
              <div>
              <a href='..' className='login-button2'>Log In</a>
@@ -60,7 +66,7 @@ const MainNavbar = () => {
              <Button className='singUp-button2' href="#">Sing Up</Button>
              </div>
               <div className='ms-3'>
-              <Offcanvas className="mt-2"></Offcanvas>
+              <Offcanvas className="mt-2 ms-5"></Offcanvas>
               </div>
           </div>
           

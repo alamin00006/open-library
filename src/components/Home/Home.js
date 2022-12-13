@@ -11,6 +11,10 @@ import Kids from './Kids/Kids';
 import Thrillers from './Thrillers/Thrillers';
 import Textbooks from './Textbooks/Textbooks';
 import AuthorsAlliances from './AuthorsAlliances/AuthorsAlliances';
+import BrowseSubjects from './BrowseSubjects/BrowseSubjects';
+import ArrountLibrarys from './ArrountLibrary/ArrountLibrarys';
+import AboutProjects from './AboutProjects/AboutProjects';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     return (
@@ -27,6 +31,10 @@ const Home = () => {
            <Thrillers></Thrillers>
            <Textbooks></Textbooks>
            <AuthorsAlliances></AuthorsAlliances>
+           <BrowseSubjects></BrowseSubjects>
+           <ArrountLibrarys></ArrountLibrarys>
+           <AboutProjects></AboutProjects>
+           <Footer></Footer>
         </div>
     );
 };
