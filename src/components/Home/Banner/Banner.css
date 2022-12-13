@@ -9,8 +9,7 @@
   
   .swiper-slide {
     font-size: 18px;
-    background: #fff;
-  
+      
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -30,6 +29,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding: 30px;
+    
   }
   .banner-slider-part{
     padding:5px 25px;
@@ -51,4 +51,32 @@
   .slider-image img{
     width: 80px;
   }
+
+  .swiper-button-prev{
+  background-color: #007aff;
+  color: white;
+  padding: 17px;
+   font-weight: bolder;
+   border-radius: 50%;
   
+  }
+  .swiper-button-next{
+  background-color: #007aff;
+  color: white;
+  padding: 17px;
+  font-weight: bolder;
+  border-radius: 50%;
+  }
+
+  .swiper-button-prev:hover{
+    background-color: #066cda;
+  }
+  .swiper-button-next:hover{
+    background-color: #066cda;
+  }
+  :root {
+    --swiper-navigation-size: 25px;
+    
+  }
+
+

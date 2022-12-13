@@ -1,16 +1,12 @@
 import React from 'react';
-import { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-
 import "swiper/css";
 import "swiper/css/navigation";
 import './Banner.css'
-
 import { Navigation } from 'swiper';
 const Banner = () => {
     return (
-     <div className='container '>
+     <div className='container bg-white'>
         <h5 className='bg-white mb-0 ps-4 pt-4 banner-title'>Welcome to Open Library</h5>
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
            
