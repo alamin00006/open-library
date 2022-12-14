@@ -4,8 +4,11 @@
 .main-Navbar{
     background-color: #e1dcc5;
 }
+.container-fluid{
+    --bs-gutter-x: 0;
+}
 .browse-dropDown{
-    margin-left: 40px;
+    margin-left: 50px;
 }
 .all-button{
     border: 1px solid #f2f0e7;
@@ -27,6 +30,7 @@
 .login-button2{
     padding: 5px 35px;
     color: black;
+    font-size: 1.1rem;
     text-decoration: none;
 }
 .login-button2:hover{

@@ -22,7 +22,7 @@ const MainNavbar = () => {
             navbarScroll
           >
             
-            <Nav.Link className='' href="..">My Books</Nav.Link>
+            <Nav.Link className='ms-4' href="..">My Books</Nav.Link>
             <NavDropdown className='browse-dropDown' title="Browse" id="navbarScrollingDropdown">
               <NavDropdown.Item href="..">Action</NavDropdown.Item>
               <NavDropdown.Item href="..">
@@ -58,7 +58,7 @@ const MainNavbar = () => {
                      <MagnifyingGlassIcon className='search-icon'/>
                  </div>
             </div>
-          <div className='d-flex align-items-center mx-3 mt-3 nav-left-part'>
+          <div className='d-flex align-items-center ms-3 mt-3 nav-left-part'>
              <div>
              <a href='..' className='login-button2'>Log In</a>
              </div>

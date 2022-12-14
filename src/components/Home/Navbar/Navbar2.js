@@ -12,7 +12,7 @@ const Navbar2 =({name, ...props }) =>{
 
   return (
     <div>
-      <Button onClick={handleShow} className="me-2 offCanvas-button">
+      <Button onClick={handleShow} className="offCanvas-button">
       <Bars3Icon className='offCanvas-icon'/><span className='d-none'>{name}</span>
       </Button>
       <Offcanvas show={show} onHide={handleClose} {...props}>
